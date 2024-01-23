@@ -760,6 +760,7 @@ h6 {
     /* contains the content */
     .featherlight .featherlight-inner {
         /* make sure its visible */
+        /*display: block;*/
         display: block;
     }
 
