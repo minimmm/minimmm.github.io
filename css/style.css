@@ -740,6 +740,7 @@ h6 {
         overflow: auto;
         padding: 25px 0;
         border-bottom: 25px solid transparent;
+        box-sizing: content-box;
 
         /* dimensions: handling small or empty content */
         min-width: 30%;
@@ -792,7 +793,7 @@ h6 {
 
     .featherlight .featherlight-image {
         /* styling */
-        max-height:1000px;
+        max-height:calc(100vh - 75px);
         max-width:100%;
     }
 
