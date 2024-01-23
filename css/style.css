@@ -794,7 +794,7 @@ h6 {
 
     .featherlight .featherlight-image {
         /* styling */
-        
+        max-height:calc(100vh - 75px);
         max-width:100%;
     }
 
